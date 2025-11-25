@@ -1,5 +1,5 @@
 // Konfiguration
-const webhookUrl = "https://grzesioc.app.n8n.cloud/webhook/eb6b49ba-c422-48d1-bb86-196e80090a5e/chat";
+const webhookUrl = "https://grzesioc.app.n8n.cloud/webhook/ee9f3951-54e0-4aaf-9a54-94cfce127570/chat";
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 const chatMessages = document.getElementById('chat-messages');
@@ -158,4 +158,5 @@ messageInput.addEventListener('keydown', (event) => {
 messageInput.addEventListener('input', () => {
     messageInput.style.height = 'auto';
     messageInput.style.height = messageInput.scrollHeight + 'px';
+
 });
